@@ -1,0 +1,54 @@
+.container{
+    background-color: white;
+    height: 80vh;
+    width: 45vw;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#logo{
+    height:200px;
+    width:200px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#texts{
+    color:#D03737;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#play-button{
+    background-color: #0C1248;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding:15px 40px;
+    border-radius: 10px;
+    margin-top: 35px;
+    border: unset;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.theme{
+    align-self: self-end;
+    padding: 5px 15px;
+    color: white;
+    background-color: #0C1248;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: unset;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}

@@ -1,0 +1,106 @@
+#heading{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+}
+
+#heading img{
+    height: 40px;
+    width: 40px;
+}
+#questionNumber{
+    padding: 5px 15px;
+    background-color: #0C1248;
+    color: white;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#heading > button {
+    padding: 5px 15px;
+    background-color: #0C1248;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+#quesBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    font-size: x-large;
+}
+
+#questionDiv{
+    background-color: #EEEEEE;
+    height:80%;
+    width: 45%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+
+}
+#optionBox{
+    height:80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 80%;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    cursor: pointer;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#mark{
+    padding: 5px 20px;
+    margin-right:20px;
+    color: white;
+    font-size: larger;
+    background-color: #D03737;
+    border-radius: 5px;
+    border: unset;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#unmark{
+    padding: 5px 10px;
+    color: #7A0000;
+    font-size: larger;
+    background-color: #F7B9B9;
+    border-radius: 5px;
+    border: unset;
+    border-bottom: 3px solid #7A0000;
+    border-right: 3px solid #7A0000;
+}
+.options:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}

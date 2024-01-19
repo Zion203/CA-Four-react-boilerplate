@@ -1,0 +1,33 @@
+#headResult{
+    font-size: 75px;
+    color: #0C1248;
+}
+#result{
+    margin-top: 40px;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+#again{
+    padding: 5px 20px;
+    color: white;
+    font-size: larger;
+    background-color: #D03737;
+    border-radius: 5px;
+    border: unset;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.bigger{
+    font-size: 2rem;
+    color: #0C1248;
+}
+
+#score{
+    font-size: 60px;
+    color: #0C1248;
+}
